@@ -4,13 +4,13 @@ Practica Final Estructura de Datos
 
 
 
-# K-Paths Graph Visualization and Shortest Path Finder
+# Shortest Path Finder
 
 ## Team Members
 - **Thomas Bedoya**
 -  **Juan Esteban Jimenez**
 ## Project Description
-This project is part of the Algorithms and Data Structures course. The provided application visualizes graphs and computes shortest paths. The current code implements **Dijkstra's algorithm** for single-source shortest paths and includes UI and scaffolding to extend the project toward computing k-shortest paths (k = 2 and k = 3) as an optional extension.
+This project is part of the Algorithms and Data Structures course. The provided application visualizes graphs and computes shortest paths. The current code implements **Dijkstra's algorithm** for single-source shortest paths and includes UI.
 
 The program allows users to:
 - Visualize a graph interactively using a PyQt5 GUI.
@@ -18,7 +18,7 @@ The program allows users to:
 - Display and edit the adjacency matrix directly.
 - Draw the graph visually from the matrix.
 - Compute shortest paths using Dijkstra’s algorithm.
-- Optionally extend the project to compute k-shortest paths for k = 2 and k = 3.
+  
 
 ## Project Structure
 Project Root  
@@ -62,8 +62,6 @@ python main.py
    - The program runs Dijkstra’s algorithm to compute the shortest distances to every other node.  
    - Results are displayed with distances and reconstructed paths.
 
-4. Extension Roadmap:  
-   - Implement k-shortest paths (k = 2 and k = 3) as an enhancement. The current codebase is a suitable starting point for adding Yen's algorithm or modified k-shortest path routines.
 
 ## Example of Execution
 1. Launch the program with:  
