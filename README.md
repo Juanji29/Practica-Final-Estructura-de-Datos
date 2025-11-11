@@ -6,6 +6,7 @@
 ## Team Members
 - **Thomas Bedoya**
 -  **Juan Esteban Jimenez**
+-  **Juan Jose Urrego**
 ## Project Description
 This project is part of the Algorithms and Data Structures course. The provided application visualizes graphs and computes shortest paths. The current code implements **Dijkstra's algorithm** for single-source shortest paths and includes UI.
 
