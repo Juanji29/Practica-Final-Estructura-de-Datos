@@ -193,7 +193,7 @@ class GrafoApp(QtWidgets.QMainWindow):
 
     def calcular_dijkstra(self):
         try:
-            # Obtener el nodo inicial desde el QLineEdit o QComboBox
+            # Obtener el nodo inicial desde el QLineEdit
             nodo_inicial = int(self.ui.lineEditNodoInicial.text()) - 1  # Restar 1 porque los índices son 0-based
             if nodo_inicial < 0 or nodo_inicial >= len(self.nodos):
                 print("El nodo inicial está fuera de rango.")
@@ -268,3 +268,4 @@ if __name__ == "__main__":
     window = GrafoApp()
     window.show()
     sys.exit(app.exec_())
+
